@@ -241,7 +241,7 @@
 @media (max-width:425px) {
   .container {
     width: 90%;
-    height: 90%;
+    height: 85%;
   }
   .container .book .profile-page p {
     font-size: .8rem;
@@ -254,12 +254,12 @@
     margin-left: 20px;
   }
    .container .book .flip-page .front-page .education ul li {
-    font-size: 9.5px !important;
+    font-size: 9.3px !important;
     margin-bottom: 2px;
 
   }
   .container .book .flip-page .front-page .achievement ul li {
-    font-size: 9.5px !important;
+    font-size: 9.3px !important;
     margin-bottom: 3px;
   }
    .container .book .flip-page .front-page .education h1 {
@@ -269,16 +269,21 @@
     margin-bottom: 15px;
   }
   .back-page2 .form-con .form {
-    width: 105px;
+    width: 130px;
+    gap: 13px;
   }
    .back-page2 .form-con .form label {
-    font-size: .6rem;
+    font-size: .7rem;
   }
 
   .back-page2 .form-con .form input {
-    width: 70px;
-    font-size: .4rem;
+    width: 85px;
+    font-size: .5rem;
   }
+  .back-page2 .form-con .form button {
+    padding: 5px;
+    font-size: .8rem;
+  } 
   .thanks {
     font-size: 1.3rem;
     margin-left: 10px;
