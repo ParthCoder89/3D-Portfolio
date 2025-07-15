@@ -1,63 +1,287 @@
-@media (max-width: 768px) {
-  /* .container {
-    width: 100%;
-    height: 100%;
+@media (max-width:768px) {
+  .container .book .profile-page img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .container .book .profile-page h1 {
+    font-size: 1.7rem;
+  }
+
+  .container .book .profile-page h4 {
+    font-size: 1.2rem;
+  }
+
+  .container .book .profile-page .icons {
+    gap: 10px;
+  }
+
+  .container .book .profile-page p {
+    font-size: .9rem;
+    padding: 0px 15px 0px 15px;
+  }
+
+  .container .book .profile-page p:hover {
+    transform: none;
+  }
+
+  .container .book .profile-page .button {
     flex-direction: column;
-    border-radius: 0;
-    overflow-x: hidden;
+    gap: 12px;
+
   }
 
-  .book {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+  .container .book .profile-page .button button {
+    padding: 3px;
   }
 
-  .profile-page,
-  .flip-page,
-  .flip-page2 {
-    position: static;
-    width: 100%;
-    height: auto;
-    transform: none !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    pointer-events: auto;
-    box-shadow: none;
+  .container .book .flip-page .front-page .education {
+    margin-top: 5px;
+    margin-left: 10px;
   }
 
-  .flip-btn,
-  .flip-btn1,
-  .flip-btn2,
-  .flip-btn3 {
-    display: none;
+  .container .book .flip-page .front-page .education h1 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
   }
 
-  .progress-ring {
+  .container .book .flip-page .front-page .education ul {
+    margin-top: -5px;
+    margin-left: 15px;
+  }
+
+  .container .book .flip-page .front-page .education ul li {
+    font-size: 11px;
+    margin-bottom: 4px;
+
+  }
+
+  .container .book .flip-page .front-page .achievement {
+    margin-left: 10px;
+  }
+
+  .container .book .flip-page .front-page .achievement h1 {
+    font-size: 1rem;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+
+  .container .book .flip-page .front-page .achievement ul {
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-top: -5px;
+  }
+
+  .container .book .flip-page .front-page .achievement ul li {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+
+  .container .book .flip-page .back-page .skill-con {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0px;
+    row-gap: 10px;
+    margin-top: -10px;
+  }
+
+  .skill {
+    width: 65px;
+    height: 65px;
+    margin-left: 10px;
+  }
+
+  .progress-ring img {
+    width: 33px;
+    height: 33px;
+  }
+
+  .flip-page2 .front-page2 .projects-con {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: -1px;
+  }
+
+  .flip-page2 .front-page2 .projects-con .project-box {
     width: 80px;
-    height: 80px;
+    height: 85px;
   }
 
-  .project-box {
-    width: 90%;
-    height: auto;
-  } */
-   .container{
-    width: 100%;
-    height: 100%;
-   }
-   .book{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-   }
-   .profile-page{
-    width: 100%;
-   }
-   .flip-page2 .front-page2{
-    visibility: hidden;
-   }
+  .project-box img {
+    width: 80px;
+  }
+
+  .project-box .project-span {
+    font-size: .4rem;
+  }
+
+  .project-box h3 {
+    font-size: 8px;
+    margin: -5px;
+  }
+
+  .h3-heading {
+    margin: -2px 0px -8px 0px;
+  }
+
+  .front-page2 h1 {
+    margin-bottom: 20px;
+  }
+
+  .back-page2 .form-con .form {
+    width: 120px;
+  }
+
+  .back-page2 .form-con .form label {
+    font-size: .6rem;
+  }
+
+  .back-page2 .form-con .form input {
+    width: 70px;
+    font-size: .4rem;
+  }
+
+  .back-page2 .form-con .form button {
+    padding: 2px;
+    font-size: .7rem;
+  }
+
+  .back-page2 .form-con {
+    margin-top: 15px;
+  }
+
+  .thanks {
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-top: 100px;
+  }
 }
 
+@media (max-width:620px) {
+  .container .book{
+    height: 94%;
+  } 
+  
+    .container {
+      width: 85%;
+      height: 95%;
+    }
+  .container .book .flip-page .front-page .education h1 {
+    font-size: 1.2rem;
+  }
+
+  .container .book .flip-page .front-page .education ul {
+    margin-top: -3px;
+  }
+
+  .container .book .flip-page .front-page .achievement h1 {
+    font-size: 1.1rem;
+    margin-top: -7px;
+  }
+
+  .container .book .flip-page .front-page .achievement ul li,
+  .container .book .flip-page .front-page .education ul li {
+    font-size: 11px !important;
+  }
+
+  .container .book .flip-page .back-page .skill-con {
+    row-gap: 15px;
+  }
+
+  .flip-page2 .front-page2 .projects-con {
+    margin-top: 0px;
+  }
+
+  .flip-page2 .front-page2 .projects-con .project-box {
+    width: 90px;
+    height: 105px;
+  }
+
+  .project-box .project-span {
+    font-size: .5rem;
+  }
+
+  .project-box h3 {
+    font-size: 9px;
+    margin: -5px;
+  }
+
+  .h3-heading {
+    margin: -1px 0px -6px 0px;
+  }
+
+  .front-page2 h1 {
+    margin-bottom: 15px;
+  }
+
+  .back-page2 .form-con .form {
+    width: 150px;
+  }
+
+  .back-page2 .form-con .form label {
+    font-size: .8rem;
+  }
+
+  .back-page2 .form-con .form input {
+    width: 90px;
+    font-size: .5rem;
+  }
+
+  .back-page2 .form-con .form button {
+    padding: 3px;
+    font-size: .7rem;
+  }
+
+  .thanks {
+    font-size: 2.3rem;
+    margin-left: 10px;
+    margin-top: 150px;
+  }
+
+}
+
+@media (max-width:425px) {
+  .container {
+    width: 94%;
+    height: 98%;
+  }
+  .container .book .profile-page p {
+    font-size: .8rem;
+    padding: 0px 13px 0px 13px;
+  }
+  .container .book .flip-page .front-page .education ul {
+    margin-left: 10px;
+  }
+   .container .book .flip-page .front-page .achievement ul {
+    margin-left: 20px;
+  }
+   .container .book .flip-page .front-page .education ul li {
+    font-size: 10px !important;
+    margin-bottom: 2px;
+
+  }
+  .container .book .flip-page .front-page .achievement ul li {
+    font-size: 10px !important;
+    margin-bottom: 3px;
+  }
+   .container .book .flip-page .front-page .education h1 {
+    margin-bottom: 10px;
+  }
+  .container .book .flip-page .front-page .achievement h1 {
+    margin-bottom: 15px;
+  }
+  .back-page2 .form-con .form {
+    width: 105px;
+  }
+   .back-page2 .form-con .form label {
+    font-size: .6rem;
+  }
+
+  .back-page2 .form-con .form input {
+    width: 70px;
+    font-size: .4rem;
+  }
+  .thanks {
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-top: 200px;
+  }
+}

@@ -93,8 +93,10 @@ body {
 
 .container .book .profile-page h1 {
     font-size: 2.1rem;
+    text-align: center;
     margin-top: -10px;
     margin-bottom: -20px;
+    padding: 0px 10px 0px 10px;
 }
 
 .container .book .profile-page h1:hover {
@@ -103,6 +105,8 @@ body {
 
 .container .book .profile-page h4 {
     font-size: 1.2rem;
+    text-align: center;
+    padding: 0px 8px 0px 8px;
     color: var(--main-color);
 }
 
@@ -209,14 +213,14 @@ body {
 }
 
 .container .book .flip-page .front-page .education {
-    margin-top: 10px;
+    margin-top: 8px;
     margin-left: 20px;
 }
 
 .container .book .flip-page .front-page .education h1 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     color: var(--main-color);
 }
 
@@ -236,7 +240,7 @@ body {
 }
 
 .container .book .flip-page .front-page .achievement h1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
     margin-bottom: 10px;
     color: var(--main-color);
@@ -249,7 +253,7 @@ body {
 
 .container .book .flip-page .front-page .achievement ul li {
     font-size: 11.5px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .container .book .flip-page .front-page .achievement ul li span {
@@ -293,7 +297,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 60px;
     position: relative;
 }
 
@@ -306,13 +310,15 @@ body {
     display: grid;
     place-items: centre;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 50px;
+    column-gap: 35px;
     row-gap: 30px;
+    /* margin-left: 20px; */
+    /* margin: 0 auto; */
 }
 
 .skill {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     position: relative;
 }
 
@@ -353,8 +359,8 @@ body {
 }
 
 .progress-ring img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     z-index: 1;
     position: relative;
@@ -432,22 +438,24 @@ body {
 .flip-page2 .front-page2 .projects-con {
     height: 70%;
     width: 90%;
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-right: 10px;
     display: grid;
-    row-gap: 12px;
+    row-gap: 8px;
+    column-gap: -5px;
     place-items: center;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .flip-page2 .front-page2 .projects-con .project-box {
     position: relative;
-    width: 160px;
-    height: 130px;
+    width: 110px;
+    height: 105px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 7px;
     font-size: 0.6rem;
     text-align: center;
     overflow: hidden;
@@ -456,9 +464,9 @@ body {
 
 .project-box img {
     position: relative;
-    max-width: 130px;
-    height: 70px;
-    box-shadow: 3px 3px 5px 5px grey;
+    width: 100px;
+    /* height: 55px; */
+    box-shadow: 2px 2px 4px 4px grey;
     z-index: 1;
     transition: all 0.3s ease;
 }
@@ -470,7 +478,7 @@ body {
     width: 100%;
     height: 80%;
     z-index: 2;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     transition: all 0.3s ease;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
@@ -480,8 +488,7 @@ body {
     justify-content: center;
     text-align: center;
     transition: all 0.3s ease;
-    padding: 5px;
-    font-size: 0.7rem;
+    padding: 3px;
     font-weight: 700;
     border-radius: 4px;
 
@@ -505,7 +512,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
 }
 
 .project-span a {
