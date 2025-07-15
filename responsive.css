@@ -51,7 +51,7 @@
   }
 
   .container .book .flip-page .front-page .education ul li {
-    font-size: 11px;
+    font-size: 10px;
     margin-bottom: 4px;
 
   }
@@ -73,7 +73,7 @@
   }
 
   .container .book .flip-page .front-page .achievement ul li {
-    font-size: 11px;
+    font-size: 10px;
     margin-bottom: 5px;
   }
 
@@ -240,8 +240,8 @@
 
 @media (max-width:425px) {
   .container {
-    width: 94%;
-    height: 98%;
+    width: 90%;
+    height: 90%;
   }
   .container .book .profile-page p {
     font-size: .8rem;
@@ -254,12 +254,12 @@
     margin-left: 20px;
   }
    .container .book .flip-page .front-page .education ul li {
-    font-size: 10px !important;
+    font-size: 9.5px !important;
     margin-bottom: 2px;
 
   }
   .container .book .flip-page .front-page .achievement ul li {
-    font-size: 10px !important;
+    font-size: 9.5px !important;
     margin-bottom: 3px;
   }
    .container .book .flip-page .front-page .education h1 {
