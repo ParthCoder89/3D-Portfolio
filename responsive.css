@@ -121,6 +121,14 @@
   .h3-heading {
     margin: -2px 0px -8px 0px;
   }
+  .email-det{
+    width: 120px;
+    height: 80px;
+    gap: 5px;
+  }
+  .email-det p{
+    font-size: .5rem;
+  }
 
   .front-page2 h1 {
     margin-bottom: 20px;
@@ -156,14 +164,15 @@
 }
 
 @media (max-width:620px) {
-  .container .book{
+  .container .book {
     height: 94%;
-  } 
-  
-    .container {
-      width: 85%;
-      height: 95%;
-    }
+  }
+
+  .container {
+    width: 85%;
+    height: 95%;
+  }
+
   .container .book .flip-page .front-page .education h1 {
     font-size: 1.2rem;
   }
@@ -211,6 +220,14 @@
   .front-page2 h1 {
     margin-bottom: 15px;
   }
+  .email-det{
+    width: 150px;
+    height: 110px;
+    gap: 6px;
+  }
+  .email-det p{
+    font-size: .6rem;
+  }
 
   .back-page2 .form-con .form {
     width: 150px;
@@ -241,38 +258,80 @@
 @media (max-width:425px) {
   .container {
     width: 90%;
-    height: 85%;
+    height: 80%;
   }
+
+  .container .book .profile-page img {
+    width: 75px;
+    height: 75px;
+  }
+
   .container .book .profile-page p {
-    font-size: .8rem;
-    padding: 0px 13px 0px 13px;
+    font-size: .7rem;
+    padding: 0px 12px 0px 11px;
   }
+
+  .container .book .profile-page .button {
+    gap: 10px;
+  }
+
   .container .book .flip-page .front-page .education ul {
     margin-left: 10px;
   }
-   .container .book .flip-page .front-page .achievement ul {
+
+  .container .book .flip-page .front-page .achievement ul {
     margin-left: 20px;
   }
-   .container .book .flip-page .front-page .education ul li {
-    font-size: 9.3px !important;
+
+  .container .book .flip-page .front-page .education ul li {
+    font-size: 8.8px !important;
     margin-bottom: 2px;
 
   }
+
   .container .book .flip-page .front-page .achievement ul li {
-    font-size: 9.3px !important;
+    font-size: 8.8px !important;
     margin-bottom: 3px;
   }
-   .container .book .flip-page .front-page .education h1 {
+
+  .container .book .flip-page .front-page .education h1 {
     margin-bottom: 10px;
   }
+
   .container .book .flip-page .front-page .achievement h1 {
     margin-bottom: 15px;
   }
-  .back-page2 .form-con .form {
-    width: 130px;
-    gap: 13px;
+  .flip-page2 .front-page2 h1{
+    margin-bottom: 40px;
   }
-   .back-page2 .form-con .form label {
+  .project-box .project-span {
+    font-size: .4rem;
+  }
+
+  .flip-page2 .front-page2 .projects-con .project-box {
+    width: 80px;
+    height: 79px;
+  }
+
+  .project-box h3 {
+    font-size: 7px;
+    margin: -4px;
+  }
+  .email-det{
+    width: 120px;
+    height: 80px;
+    gap: 5px;
+  }
+  .email-det p{
+    font-size: .6rem;
+  }
+
+  .back-page2 .form-con .form {
+    width: 120px;
+    gap: 10px;
+  }
+
+  .back-page2 .form-con .form label {
     font-size: .7rem;
   }
 
@@ -280,10 +339,12 @@
     width: 85px;
     font-size: .5rem;
   }
+
   .back-page2 .form-con .form button {
     padding: 5px;
-    font-size: .8rem;
-  } 
+    font-size: .7rem;
+  }
+
   .thanks {
     font-size: 1.3rem;
     margin-left: 10px;
