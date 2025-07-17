@@ -465,7 +465,7 @@ body {
 .project-box img {
     position: relative;
     width: 100px;
-    /* height: 55px; */
+    height: 55px;
     box-shadow: 2px 2px 4px 4px grey;
     z-index: 1;
     transition: all 0.3s ease;
